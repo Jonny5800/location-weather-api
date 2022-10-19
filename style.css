@@ -6,6 +6,8 @@
 
 .container {
   margin-top: 6vh;
+  max-height: 54vh;
+  border: solid black 1px;
 }
 .header {
   display: flex;
@@ -98,6 +100,11 @@
 }
 .image-div {
   text-align: center;
+  max-height: 40vh;
+  border: solid green 1px;
+}
+#the-gif {
+  max-height: 40vh;
 }
 
 @media (max-width: 800px) {
