@@ -81,7 +81,7 @@
   width: 200px;
   font-weight: bolder;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  color: red;
+  color: blue;
   font-size: 20px;
 }
 
@@ -140,5 +140,11 @@
 @media (min-width: 851px) {
   #left-header-text {
     justify-content: right;
+  }
+}
+
+@media (max-height: 400px) {
+  .image-div {
+    display: none;
   }
 }
