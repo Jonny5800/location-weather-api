@@ -1,3 +1,5 @@
+//weather data doesnt work on mobile
+
 const searcher = document.getElementById("search-button");
 const userInput = document.getElementById("search-bar");
 const weatherTextBoxConst = document.getElementById("weatherTextBox");
